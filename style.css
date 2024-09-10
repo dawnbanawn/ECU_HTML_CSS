@@ -1,3 +1,11 @@
+html{
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* PAGE 01 */
+
 #main{
     margin: 0;
     height: 100vh;
@@ -33,6 +41,12 @@
 }
 #navFeatures{
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navFeatures p{
+    height: 10px;
 }
 #rightNav{
     display: flex;
@@ -67,12 +81,20 @@ height: 10px;
 #heroLeft{
     width: 50%;
     background-color: red;
-    height: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#heroLeftContainer{
+    background-color: purple;
+    height: 50%;
+
+    
 }
 #heroRight{
     width: 50%;
     background-color: rgb(29, 212, 29);
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: flex-end;
 }
@@ -80,3 +102,150 @@ height: 10px;
     width: 90%;
     
 }
+#heroLeftUpper p{
+    font-size: 16px;
+}
+#heroLeftUpper h1{
+    font-size: 54px;
+}
+#heroLeftLower{
+    display: flex;
+    justify-content: flex-start;
+}
+#heroLeftLower img{
+    margin-left: 10px;
+}
+
+#nextButtonDiv{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+#nextButton{
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+#nextButtonDiv p{
+    margin-left: 10px;
+}
+
+/* PAGE 02 */
+
+
+
+#page02TopLogos{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: blue;
+    align-items: flex-end;
+}
+#page02LowerContainer{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+#page02LowerLeft{
+    background-color: red;
+    width: 50%;
+    
+}
+#page02LowerLeft img{
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#page02LowerRightContainer{
+    background-color: green;
+    width: 50%;
+}
+#page02LowerRightBottom{
+    display: flex;
+    width: 100%;
+    background-color: brown;
+}
+#page02IconsLeft{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 50%;
+}
+#page02IconsRight{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 204, 255);
+    width: 50%;
+}
+.page02Card{
+    display: flex;
+    width: 250px;
+    background-color: purple;
+}
+.page02Card p{
+    font-size: 12px;
+}
+.page01IconImage{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+
+/* PAGE 03 */
+
+#page03{
+    background-color: rgb(234, 239, 243);
+}
+
+#page03Title{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page03Carousel{
+    display: flex;
+    justify-content: center;
+}
+#page03Carousel img{
+    width: 80%;
+    margin-top: 10px;
+}
+#page03Bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+#page03Bottom p{
+    width: 60%;
+    text-align: center;
+}
+
+
+
+/* PAGE 04 */
+
+
+/* PAGE 05 */
+
+
+/* PAGE 06 */
+
+/* PAGE 07 */
