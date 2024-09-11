@@ -381,4 +381,90 @@ margin-right: 10px;
 }
 /* PAGE 06 */
 
+#page06{
+    background-color: rgb(0, 255, 38);
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+}
+
+#page06div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+
+}
+.page06cardsDiv{
+    display: flex;
+}
+#page06left{
+    width: 35%;
+}
+#page06right{
+    width: 50%;
+}
+
+.buttonChange{
+    background-color: red;
+    width: 50px;
+}
+.page06card{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 175px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5px;
+
+}
+.page06card p{
+    margin-left: 10px;
+
+}
+
+.page06infocards{
+    display: flex;
+    height: 10px;
+    align-items: center;
+    
+}
+.page06infocardsLeft{
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    color: rgb(114, 81, 160);
+    font-weight: 600;
+}
+.page06infocardsRight{
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    color: rgb(81, 160, 94);
+    font-weight: 600;
+}
+.page06image{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
 /* PAGE 07 */
+
+#page07{
+    height: 200px;
+
+
+}
+#page07div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(234, 255, 0);
+
+}
