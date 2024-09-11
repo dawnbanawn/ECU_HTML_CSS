@@ -2,25 +2,29 @@ html{
     margin: 0;
     width: 100vw;
     overflow-x: hidden;
+
 }
 
 /* PAGE 01 */
 
 #main{
     margin: 0;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 }
 .pages{    
-    height: 100vh;
-    width: 70%;
+    height: 100%;
     margin: auto;
 }
 #page01{
     background-color: rgb(230, 224, 224);
+    width: 70%;
+
 }
 #page02{
     background-color: black;
+    width: 70%;
+
 }
 #navbar{
     background-color: rgb(170, 157, 157);
@@ -147,6 +151,11 @@ height: 10px;
     height: 150px;
     background-color: blue;
     align-items: flex-end;
+    
+}
+.page02Logos img{
+    width: 100%;
+
 }
 #page02LowerContainer{
     width: 100%;
@@ -209,6 +218,8 @@ height: 10px;
 
 #page03{
     background-color: rgb(234, 239, 243);
+    width: 70%;
+
 }
 
 #page03Title{
@@ -242,10 +253,132 @@ height: 10px;
 
 /* PAGE 04 */
 
+#page04{
+    width: 70%;
+
+}
+#page04TopDiv{
+    width: 100%;
+    display: flex;
+    background-color: red;
+}
+#page04TopLeft{
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.page04check{
+    display: flex;
+    align-items: center;
+}
+.page04check img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.page04check p{
+    height: 10px;
+}
+#page04TopRight{
+    width: 50%;
+    background-color: green;
+}
+#page04TopRight img{
+    width: 100%;
+    height: 100%;
+}
+.learnMoreButton{
+    background-color: rgb(90, 90, 200);
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+
+    margin-top: 20px;
+
+}
+.learnMoreButton p{
+height: 10px;
+margin-right: 10px;
+}
+
+#page04BottomLeft{
+    background-color: brown;
+    width: 50%;
+}
+#page04BottomLeft img{
+    width: 100%;
+}
+#page04BottomRight{    
+    background-color: rgb(163, 165, 42);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#page04LowerDiv{
+    display: flex;
+    width: 100%;
+    background-color: aquamarine;
+}
+#page04cards{
+    display: flex;
+}
 
 /* PAGE 05 */
 
+#page05{
+    background-color: red;
+    height: 600px;
+    display: flex;
+    align-items: center;
 
+}
+.page05card{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+#page05div{
+    display: flex;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+
+}
+.page05person{
+    display: flex;
+}
+.page05icon{
+    background-color: rgb(90, 90, 200);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -25px;
+    border-radius: 10px;
+}
+.cardContents{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /* PAGE 06 */
 
 /* PAGE 07 */
