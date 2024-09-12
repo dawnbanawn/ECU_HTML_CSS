@@ -8,6 +8,9 @@
     overflow-x: hidden;
 
 }
+h1, h2, h3, h4 {
+    font-weight: bolder;
+}
 
 /* PAGE 01 */
 
@@ -25,11 +28,7 @@
     width: 70%;
 
 }
-#page02{
-    background-color: black;
-    width: 70%;
 
-}
 #navbar{
     background-color: rgb(255, 255, 255);
     width: 70vw;
@@ -107,7 +106,7 @@ height: 10px;
     align-items: flex-end;
 }
 #heroRight img{
-    width: 90%;
+    width: 100%;
     
 }
 #heroLeftUpper p{
@@ -115,10 +114,12 @@ height: 10px;
 }
 #heroLeftUpper h1{
     font-size: 54px;
+    margin-bottom: 20px;
 }
 #heroLeftLower{
     display: flex;
     justify-content: flex-start;
+    margin-top: 50px;
 }
 #heroLeftLower img{
     margin-left: 10px;
@@ -133,13 +134,15 @@ height: 10px;
     margin-bottom: 50px;
 }
 #nextButton{
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     height: 50px;
     width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
     border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #nextButtonDiv p{
     margin-left: 10px;
@@ -147,6 +150,12 @@ height: 10px;
 
 /* PAGE 02 */
 
+#page02{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin-bottom: 50px;
+
+}
 
 
 #page02TopLogos{
@@ -155,6 +164,8 @@ height: 10px;
     height: 150px;
     background-color: rgb(255, 255, 255);
     align-items: flex-end;
+    margin-bottom: 50px;
+
     
 }
 .page02Logos img{
@@ -205,6 +216,9 @@ height: 10px;
 .page02Card p{
     font-size: 12px;
 }
+#page02LowerRightTop{
+    margin-bottom: 50px;
+}
 .page01IconImage{
     width: 50px;
     height: 50px;
@@ -213,7 +227,8 @@ height: 10px;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -281,6 +296,7 @@ height: 10px;
 .page04check{
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 .page04check img{
     width: 20px;
@@ -299,7 +315,7 @@ height: 10px;
     height: 100%;
 }
 .learnMoreButton{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(94, 76, 206);
     width: 150px;
     height: 45px;
     display: flex;
@@ -337,6 +353,7 @@ margin-right: 10px;
 }
 #page04cards{
     display: flex;
+    margin-top: 20px;
 }
 
 /* PAGE 05 */
@@ -533,7 +550,7 @@ margin-right: 10px;
 
     margin: auto;
     background-color: rgb(255, 255, 255);
-
+    color: rgba(0, 0, 0, 0.5);
 }
 
 
