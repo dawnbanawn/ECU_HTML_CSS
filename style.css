@@ -461,10 +461,49 @@ margin-right: 10px;
 }
 #page07div{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-evenly;
     width: 70%;
+    height: 150px;
     margin: auto;
     background-color: rgb(234, 255, 0);
+
+}
+#page07right{
+    display: flex;
+    width: 40%;
+    height: 45px;
+    align-items: center;
+}
+#page07right input{
+    height: 45px;
+    background-image: url(/images/envelope.svg) no-repeat left;
+    background-size: 20px;
+    padding-left: 25px;
+    border-radius: 5px;
+
+}
+#page07left{
+    display: flex;
+    width: 40%;
+    height: 45px;
+}
+#page07left img{
+    margin-right: 10px;
+
+}
+.subscribeButton{
+    background-color: rgb(90, 90, 200);
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+
+}
+.subscribeButton p{
+    height: 10px;
 
 }
