@@ -45,6 +45,13 @@ h1, h2, h3, h4 {
 #navLogo{
     display: flex;
     align-items: center;
+
+}
+#navLogo h5{
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    
 }
 #navFeatures{
     margin-left: 20px;
@@ -355,6 +362,9 @@ margin-right: 10px;
     display: flex;
     margin-top: 20px;
 }
+.page01CardText{
+    width: 80%;
+}
 
 /* PAGE 05 */
 
@@ -424,6 +434,7 @@ margin-right: 10px;
 }
 .page06cardsDiv{
     display: flex;
+    margin-top: 20px;
 }
 #page06left{
     width: 35%;
